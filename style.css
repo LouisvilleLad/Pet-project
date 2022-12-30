@@ -70,4 +70,5 @@ img{
 
 .btn-primary{
     background: var(--color-primary);
+    color: white;
 }
