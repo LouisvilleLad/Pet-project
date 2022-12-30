@@ -10,13 +10,14 @@
     --color-danger: hsl(0, 95%, 65%);
     --color-dark: hsl(252, 30%, 18%);
     --color-black: hsl(252, 30%, 10%);
+
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 2rem;
+    --search-padding: 0.6rem 1rem;
+    --card-padding: 1rem;
 }
 
-
-img{
-    height: 250px;
-    width: 150px;
-}
 *,
 *::before, 
 *::after{
@@ -32,5 +33,41 @@ img{
 body{
     font-family: 'Poppins', sans-serif;
     color: var(--color-dark);
-    background: ;
+    background: var(--color-light);
+    overflow-x: hidden;
+}
+
+.container{
+    width: 80%;
+    margin: o auto;
+}
+
+.profile-photo{
+    width: 2.7rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img{
+   display: block;
+   width: 100%;
+}
+
+.btn{
+    display: inline-block;
+    padding: var(--btn-padding);
+    font-weight: 500;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: all 300ms ease;
+    font-size: 0.9rem;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn-primary{
+    background: var(--color-primary);
 }
