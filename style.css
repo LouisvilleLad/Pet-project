@@ -126,9 +126,9 @@ nav .create{
 
 
 /* ----------- MAIN ---------- */
-mian{
+main{
     position: relative;
-    top: 6rem;
+    top: 5.4rem;
 }
 
 main .container{
@@ -150,5 +150,9 @@ main .container .left{
 main .container .left .profile{
     padding: var(--card-padding);
     background: var(--color-white);
-    border-radius: var(--card-border-radius)
+    border-radius: var(--card-border-radius);
+    display: flex;
+    align-items: center;
+
+
 }
