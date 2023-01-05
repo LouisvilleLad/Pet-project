@@ -133,7 +133,7 @@ main{
 
 main .container{
     display: grid;
-    grid-template-columns: 18vh auto 20vh;
+    grid-template-columns: 18vw auto 20vh;
     column-gap: 2rem;
     position: relative;
 }
