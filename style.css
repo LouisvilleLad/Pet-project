@@ -288,7 +288,7 @@ main .container .left .profile{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    color: violet;
+    color: var(--color-primary);
     font-size: 0.75rem;
     width: 100%;
     position: relative;
@@ -348,4 +348,13 @@ main .container .left .profile{
     background: var(--color-white);
     padding: 0.4rem var(--card-padding);
     border-radius: var(--border-radius);
+}
+
+.middle .create-post input[type=text]{
+    justify-self: start;
+/*possible 'width=100%'*/
+    padding-left: 1rem;
+    background: transparent;
+    color: var(--color-dark);
+    margin-right: 1rem;
 }
