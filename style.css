@@ -329,3 +329,10 @@ main .container .left .profile{
     background: url("/images/profile-6.PNG") 
     no-repeat center center/cover;
 }
+
+.middle .story .profile-photo{
+    width: 2rem;
+    height: 2rem;
+    align-self: start;
+    border: 2px, solid var(--color-primary);
+}
